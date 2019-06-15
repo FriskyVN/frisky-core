@@ -7,7 +7,7 @@
 struct SDL_Renderer;
 struct SDL_Window;
 
-namespace Frisky {
+namespace frisky {
   typedef std::size_t    size_t;
   typedef std::uintptr_t uintptr_t;
   typedef std::uint32_t  sdl_flags_t;
