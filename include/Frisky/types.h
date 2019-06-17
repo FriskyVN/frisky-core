@@ -4,16 +4,10 @@
 #include <cstddef>
 #include <cstdint>
 
-struct SDL_Renderer;
-struct SDL_Window;
-
 namespace frisky {
-  typedef std::size_t    size_t;
-  typedef std::uintptr_t uintptr_t;
-  typedef std::uint32_t  sdl_flags_t;
-
-  typedef SDL_Window*    window_ptr;
-  typedef SDL_Renderer*  renderer_ptr;
+  using size_t     = std::size_t;
+  using uintptr_t  = std::uintptr_t;
+  using sdlflags_t = std::uint32_t;
 }
 
 #endif  // FRISKY_TYPES_H_

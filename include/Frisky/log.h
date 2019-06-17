@@ -13,7 +13,7 @@
   #define FRISKY_LOG(level, fmt, ...) \
     do { \
       if (DEBUG) { \
-        fprintf(stderr, "%s\r\n    [%s][Line %d]: " fmt "\r\n", \
+        fprintf(stderr, "%s\r\n    [%s][Line %d]: " fmt "\r\n\r\n", \
           __FILE__, __FUNCTION__, __LINE__, __VA_ARGS__); \
       } \
     } while (false)
